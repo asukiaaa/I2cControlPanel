@@ -4,13 +4,6 @@ A wired control panel.
 
 # TODO
 
-Put encoder * 2.
-Add button to joy
-Add address pads
-Add toggle switch * 1
-
-基板をelecrowに注文する際はジョイスティックのキャップの同時発送を依頼する
-
 # Where to buy
 
 TODO
