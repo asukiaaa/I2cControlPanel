@@ -521,16 +521,9 @@ VertValueR
 Text Label 4250 3650 0    50   ~ 0
 HoriValueR
 Wire Wire Line
-	4700 3500 4700 3550
-Connection ~ 4700 3550
-Wire Wire Line
 	4250 3650 4100 3650
 Wire Wire Line
 	4100 3950 4250 3950
-Wire Wire Line
-	4100 3550 4700 3550
-Wire Wire Line
-	4100 3750 4150 3750
 $Comp
 L power:GND #PWR0126
 U 1 1 5EE2DA7B
@@ -803,7 +796,6 @@ Wire Wire Line
 	4150 4300 4150 4250
 Wire Wire Line
 	4150 4250 4100 4250
-Connection ~ 4150 4250
 Wire Wire Line
 	6750 2900 6450 2900
 Wire Wire Line
@@ -984,17 +976,6 @@ Slide1
 Text Label 6450 3300 0    50   ~ 0
 Slide2
 NoConn ~ 10550 1800
-Wire Wire Line
-	4150 3750 4150 3850
-Wire Wire Line
-	4700 4050 4100 4050
-Wire Wire Line
-	4700 3550 4700 4050
-Wire Wire Line
-	4100 3850 4150 3850
-Connection ~ 4150 3850
-Wire Wire Line
-	4150 3850 4150 4250
 Text Label 6450 4600 0    50   ~ 0
 LED3
 $Comp
@@ -1382,4 +1363,23 @@ Wire Wire Line
 	10650 1200 10550 1200
 Wire Wire Line
 	10550 2250 10650 2250
+Wire Wire Line
+	4100 3850 4700 3850
+Wire Wire Line
+	4100 3750 4700 3750
+Connection ~ 4700 3750
+Wire Wire Line
+	4700 3750 4700 3850
+Wire Wire Line
+	4700 3500 4700 3750
+Wire Wire Line
+	4100 3550 4150 3550
+Wire Wire Line
+	4150 3550 4150 4050
+Connection ~ 4150 4250
+Wire Wire Line
+	4150 4050 4100 4050
+Connection ~ 4150 4050
+Wire Wire Line
+	4150 4050 4150 4250
 $EndSCHEMATC
