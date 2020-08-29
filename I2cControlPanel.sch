@@ -901,13 +901,13 @@ F 3 "~" H 7600 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7350 2700 2    50   ~ 0
-BTN1
+BTN0
 Text Label 7350 2500 2    50   ~ 0
-BTN2
+BTN1
 Text Label 7350 2300 2    50   ~ 0
-BTN3
+BTN2
 Text Label 7350 2100 2    50   ~ 0
-BTN4
+BTN3
 Wire Wire Line
 	7350 2500 7400 2500
 Wire Wire Line
