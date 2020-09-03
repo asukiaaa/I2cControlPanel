@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 6186)
+    (start_pass_no 5500)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -67,10 +67,10 @@
     /SCK /SDA /SCL "Net-(D4-Pad2)" VDC /HoriValueL /VertValueL /HoriValueR
     /VertValueR "Net-(C5-Pad1)" "Net-(C6-Pad2)" "Net-(C6-Pad1)" "/SCL_inside" "/SDA_inside" "Net-(U3-Pad1)" /JoyBtnR
     /JoyBtnL /BTN1 /BtnSig2 /BTN2 /BTN3 /BtnSig1 "Net-(D6-Pad2)" "Net-(D5-Pad2)"
-    /Rotery2 /Rotery1 "Net-(SW5-Pad6)" "Net-(SW5-Pad5)" "Net-(SW5-Pad4)" /Slide2 /Slide1 "Net-(D0-Pad2)"
-    "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" /BTN0 "Net-(D12-Pad1)" "Net-(D13-Pad1)"
-    "Net-(D14-Pad1)" "Net-(D15-Pad1)" /LED0 /LED1 /LED2 /LED3 /BtnSig0 "Net-(SW4-Pad6)"
-    "Net-(SW4-Pad5)" "Net-(SW4-Pad4)" "Net-(SW4-Pad3)" "Net-(SW5-Pad3)"
+    /Rotery2 /Rotery1 /Slide1 "Net-(D0-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad2)" "Net-(D10-Pad2)"
+    "Net-(D11-Pad2)" /BTN0 /LED0 /LED1 /LED2 /LED3 /BtnSig0 "Net-(Slide0-Pad6)"
+    "Net-(Slide0-Pad5)" "Net-(Slide0-Pad4)" "Net-(Slide0-Pad3)" /Slide0 "Net-(Slide1-Pad6)" "Net-(Slide1-Pad5)" "Net-(Slide1-Pad4)" "Net-(Slide1-Pad3)"
+    "Net-(BL0-Pad2)" "Net-(BL1-Pad2)" "Net-(BR0-Pad2)" "Net-(BR1-Pad2)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

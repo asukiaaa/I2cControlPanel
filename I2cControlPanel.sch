@@ -331,10 +331,10 @@ F 3 "~" H 2650 6100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_Push SW0
+L Switch:SW_Push BL0
 U 1 1 5D2E3CD5
 P 3900 5200
-F 0 "SW0" H 3750 5350 50  0000 C CNN
+F 0 "BL0" H 3750 5350 50  0000 C CNN
 F 1 "SW_Push" H 4100 5350 50  0000 C CNN
 F 2 "footprints:SW_Center_PUSH-12mm" H 3900 5400 50  0001 C CNN
 F 3 "~" H 3900 5400 50  0001 C CNN
@@ -358,10 +358,10 @@ BTN2
 Text Label 4400 5500 0    50   ~ 0
 BTN1
 $Comp
-L Switch:SW_Push SW1
+L Switch:SW_Push BL1
 U 1 1 5D36B867
 P 3900 5500
-F 0 "SW1" H 3750 5650 50  0000 C CNN
+F 0 "BL1" H 3750 5650 50  0000 C CNN
 F 1 "SW_Push" H 4100 5650 50  0000 C CNN
 F 2 "footprints:SW_Center_PUSH-12mm" H 3900 5700 50  0001 C CNN
 F 3 "~" H 3900 5700 50  0001 C CNN
@@ -369,10 +369,10 @@ F 3 "~" H 3900 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW2
+L Switch:SW_Push BR0
 U 1 1 5D36D8B0
 P 3900 5800
-F 0 "SW2" H 3750 5950 50  0000 C CNN
+F 0 "BR0" H 3750 5950 50  0000 C CNN
 F 1 "SW_Push" H 4100 5950 50  0000 C CNN
 F 2 "footprints:SW_Center_PUSH-12mm" H 3900 6000 50  0001 C CNN
 F 3 "~" H 3900 6000 50  0001 C CNN
@@ -380,10 +380,10 @@ F 3 "~" H 3900 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW3
+L Switch:SW_Push BR1
 U 1 1 5D371214
 P 3900 6100
-F 0 "SW3" H 3750 6250 50  0000 C CNN
+F 0 "BR1" H 3750 6250 50  0000 C CNN
 F 1 "SW_Push" H 4100 6250 50  0000 C CNN
 F 2 "footprints:SW_Center_PUSH-12mm" H 3900 6300 50  0001 C CNN
 F 3 "~" H 3900 6300 50  0001 C CNN
@@ -686,10 +686,10 @@ F 3 "" H 7950 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT_US RV1
+L Device:R_POT_US Encoder0
 U 1 1 5EE7F6DB
 P 7700 3550
-F 0 "RV1" H 7632 3596 50  0000 R CNN
+F 0 "Encoder0" H 7632 3596 50  0000 R CNN
 F 1 "R_POT_US" H 7632 3505 50  0000 R CNN
 F 2 "my-kicad-footprints:Volume" H 7700 3550 50  0001 C CNN
 F 3 "~" H 7700 3550 50  0001 C CNN
@@ -725,10 +725,10 @@ Rotery1
 Wire Wire Line
 	7500 3550 7550 3550
 $Comp
-L Device:R_POT_US RV2
+L Device:R_POT_US Encoder1
 U 1 1 5EE88740
 P 7700 4400
-F 0 "RV2" H 7632 4446 50  0000 R CNN
+F 0 "Encoder1" H 7632 4446 50  0000 R CNN
 F 1 "R_POT_US" H 7632 4355 50  0000 R CNN
 F 2 "my-kicad-footprints:Volume" H 7700 4400 50  0001 C CNN
 F 3 "~" H 7700 4400 50  0001 C CNN
@@ -768,7 +768,7 @@ L Connector_Generic:Conn_01x08 J1
 U 1 1 5EEA6591
 P 2650 3850
 F 0 "J1" H 2568 4367 50  0000 C CNN
-F 1 "Conn_01x08" H 2568 4276 50  0000 C CNN
+F 1 "JoystickL" H 2568 4276 50  0000 C CNN
 F 2 "my-kicad-footprints:LowHeightJoyStickWithButton" H 2650 3850 50  0001 C CNN
 F 3 "~" H 2650 3850 50  0001 C CNN
 	1    2650 3850
@@ -779,7 +779,7 @@ L Connector_Generic:Conn_01x08 J5
 U 1 1 5EEA9628
 P 3900 3850
 F 0 "J5" H 3818 4367 50  0000 C CNN
-F 1 "Conn_01x08" H 3818 4276 50  0000 C CNN
+F 1 "JoystickR" H 3818 4276 50  0000 C CNN
 F 2 "my-kicad-footprints:LowHeightJoyStickWithButton" H 3900 3850 50  0001 C CNN
 F 3 "~" H 3900 3850 50  0001 C CNN
 	1    3900 3850
@@ -972,9 +972,9 @@ Connection ~ 3600 5500
 Wire Wire Line
 	3600 5500 3600 5800
 Text Label 6450 3200 0    50   ~ 0
-Slide1
+Slide0
 Text Label 6450 3300 0    50   ~ 0
-Slide2
+Slide1
 NoConn ~ 10550 1800
 Text Label 6450 4600 0    50   ~ 0
 LED3
@@ -1159,7 +1159,7 @@ Wire Wire Line
 NoConn ~ 10150 1700
 NoConn ~ 10550 1600
 Text Label 10150 1300 2    50   ~ 0
-Slide1
+Slide0
 $Comp
 L power:GND #PWR0117
 U 1 1 5EEC7434
@@ -1172,10 +1172,10 @@ F 3 "" H 10650 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_DPDT SW5
+L Switch:SW_Push_DPDT Slide0
 U 1 1 5EEC5D06
 P 10350 1500
-F 0 "SW5" H 10350 1985 50  0000 C CNN
+F 0 "Slide0" H 10350 1985 50  0000 C CNN
 F 1 "SlideSwitch" H 10350 1894 50  0000 C CNN
 F 2 "my-kicad-footprints:SlideSwitch" H 10350 1700 50  0001 C CNN
 F 3 "~" H 10350 1700 50  0001 C CNN
@@ -1186,7 +1186,7 @@ NoConn ~ 10550 2850
 NoConn ~ 10150 2750
 NoConn ~ 10550 2650
 Text Label 10150 2350 2    50   ~ 0
-Slide2
+Slide1
 $Comp
 L power:GND #PWR0119
 U 1 1 5F41D1B5
@@ -1199,10 +1199,10 @@ F 3 "" H 10650 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_DPDT SW4
+L Switch:SW_Push_DPDT Slide1
 U 1 1 5F41D1BB
 P 10350 2550
-F 0 "SW4" H 10350 3035 50  0000 C CNN
+F 0 "Slide1" H 10350 3035 50  0000 C CNN
 F 1 "SlideSwitch" H 10350 2944 50  0000 C CNN
 F 2 "my-kicad-footprints:SlideSwitch" H 10350 2750 50  0001 C CNN
 F 3 "~" H 10350 2750 50  0001 C CNN
