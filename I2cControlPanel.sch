@@ -287,9 +287,9 @@ Text Label 6450 3900 0    50   ~ 0
 SDA_inside
 Text Label 6450 4000 0    50   ~ 0
 SCL_inside
-Text Label 6450 3500 0    50   ~ 0
-HoriValueL
 Text Label 6450 3600 0    50   ~ 0
+HoriValueL
+Text Label 6450 3500 0    50   ~ 0
 VertValueL
 Wire Wire Line
 	2000 5200 2200 5200
@@ -592,9 +592,9 @@ F 3 "" H 10150 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9900 3600 10150 3600
-Text Label 6450 3700 0    50   ~ 0
-HoriValueR
 Text Label 6450 3800 0    50   ~ 0
+HoriValueR
+Text Label 6450 3700 0    50   ~ 0
 VertValueR
 Wire Wire Line
 	8550 5050 8750 5050
