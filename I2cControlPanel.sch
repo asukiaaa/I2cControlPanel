@@ -1272,33 +1272,6 @@ Text Label 8400 5600 0    50   ~ 0
 RST
 Wire Wire Line
 	7950 5050 8550 5050
-$Comp
-L Device:R R7
-U 1 1 5F378607
-P 6600 1400
-F 0 "R7" V 6500 1400 50  0000 C CNN
-F 1 "10k" V 6600 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6530 1400 50  0001 C CNN
-F 3 "~" H 6600 1400 50  0001 C CNN
-	1    6600 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6500 1550 6600 1550
-Connection ~ 6600 1550
-Wire Wire Line
-	6600 1550 6650 1550
-$Comp
-L power:+3V3 #PWR0132
-U 1 1 5F381188
-P 6600 1250
-F 0 "#PWR0132" H 6600 1100 50  0001 C CNN
-F 1 "+3V3" H 6615 1423 50  0000 C CNN
-F 2 "" H 6600 1250 50  0001 C CNN
-F 3 "" H 6600 1250 50  0001 C CNN
-	1    6600 1250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2550 1000 2550 1100
 Wire Wire Line
@@ -1382,4 +1355,6 @@ Wire Wire Line
 Connection ~ 4150 4050
 Wire Wire Line
 	4150 4050 4150 4250
+Wire Wire Line
+	6500 1550 6650 1550
 $EndSCHEMATC
