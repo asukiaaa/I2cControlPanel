@@ -2595,7 +2595,7 @@
   (gr_arc (start 146 146) (end 150 146) (angle 90) (layer Edge.Cuts) (width 0.05) (tstamp 5EEFC522))
   (gr_arc (start 54 146) (end 54 150) (angle 90) (layer Edge.Cuts) (width 0.05) (tstamp 5EEFC522))
   (gr_arc (start 54 54) (end 50 54) (angle 90) (layer Edge.Cuts) (width 0.05))
-  (gr_text Rev2020.09 (at 109.5 148.6) (layer F.SilkS)
+  (gr_text Rev2020.10 (at 109.5 148.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text I2cControlPanel (at 95.8 148.3) (layer F.SilkS)
