@@ -975,7 +975,6 @@ Text Label 6450 3200 0    50   ~ 0
 Slide0
 Text Label 6450 3300 0    50   ~ 0
 Slide1
-NoConn ~ 10550 1800
 Text Label 6450 4600 0    50   ~ 0
 LED3
 $Comp
@@ -1156,35 +1155,30 @@ Wire Wire Line
 	8100 2400 8100 2200
 Wire Wire Line
 	8100 2200 8000 2200
-NoConn ~ 10150 1700
-NoConn ~ 10550 1600
-Text Label 10150 1300 2    50   ~ 0
+Text Label 10150 1750 2    50   ~ 0
 Slide0
 $Comp
 L power:GND #PWR0117
 U 1 1 5EEC7434
-P 10650 1200
-F 0 "#PWR0117" H 10650 950 50  0001 C CNN
-F 1 "GND" H 10655 1027 50  0000 C CNN
-F 2 "" H 10650 1200 50  0001 C CNN
-F 3 "" H 10650 1200 50  0001 C CNN
-	1    10650 1200
+P 10650 1650
+F 0 "#PWR0117" H 10650 1400 50  0001 C CNN
+F 1 "GND" H 10655 1477 50  0000 C CNN
+F 2 "" H 10650 1650 50  0001 C CNN
+F 3 "" H 10650 1650 50  0001 C CNN
+	1    10650 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_DPDT Slide0
+L Switch:SW_SPDT Slide0
 U 1 1 5EEC5D06
-P 10350 1500
-F 0 "Slide0" H 10350 1985 50  0000 C CNN
-F 1 "SlideSwitch" H 10350 1894 50  0000 C CNN
-F 2 "my-kicad-footprints:SlideSwitch" H 10350 1700 50  0001 C CNN
-F 3 "~" H 10350 1700 50  0001 C CNN
-	1    10350 1500
+P 10350 1750
+F 0 "Slide0" H 10350 2050 50  0000 C CNN
+F 1 "SlideSwitch" H 10350 1950 50  0000 C CNN
+F 2 "my-kicad-footprints:SlideSwitch_SS12D01G4_2posi_1line" H 10350 1950 50  0001 C CNN
+F 3 "~" H 10350 1950 50  0001 C CNN
+	1    10350 1750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10550 2850
-NoConn ~ 10150 2750
-NoConn ~ 10550 2650
 Text Label 10150 2350 2    50   ~ 0
 Slide1
 $Comp
@@ -1199,17 +1193,17 @@ F 3 "" H 10650 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_DPDT Slide1
+L Switch:SW_SPDT Slide1
 U 1 1 5F41D1BB
-P 10350 2550
-F 0 "Slide1" H 10350 3035 50  0000 C CNN
-F 1 "SlideSwitch" H 10350 2944 50  0000 C CNN
-F 2 "my-kicad-footprints:SlideSwitch" H 10350 2750 50  0001 C CNN
-F 3 "~" H 10350 2750 50  0001 C CNN
-	1    10350 2550
+P 10350 2350
+F 0 "Slide1" H 10350 2650 50  0000 C CNN
+F 1 "SlideSwitch" H 10350 2550 50  0000 C CNN
+F 2 "my-kicad-footprints:SlideSwitch_SS12D01G4_2posi_1line" H 10350 2550 50  0001 C CNN
+F 3 "~" H 10350 2550 50  0001 C CNN
+	1    10350 2350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10550 1400
+NoConn ~ 10550 1850
 NoConn ~ 10550 2450
 $Comp
 L Device:D D13
@@ -1333,7 +1327,7 @@ F 3 "" H 3300 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10650 1200 10550 1200
+	10650 1650 10550 1650
 Wire Wire Line
 	10550 2250 10650 2250
 Wire Wire Line

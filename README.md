@@ -2,8 +2,6 @@
 
 A wired control panel.
 
-# TODO
-
 # Where to buy
 
 TODO
@@ -15,7 +13,7 @@ TODO
 - [Encoder](https://ja.aliexpress.com/item/32783863247.html)
 - [Switch](https://akizukidenshi.com/catalog/g/gP-09826/)
 - [LCD 8x2](https://akizukidenshi.com/catalog/g/gP-06669/)
-- [Slide switch](http://akizukidenshi.com/catalog/g/gP-02627/)
+- [Slide switch](https://akizukidenshi.com/catalog/g/gP-12723/)
 - [3V3 regulator](https://akizukidenshi.com/catalog/g/gI-10675/)
 - [LED 0603](https://akizukidenshi.com/catalog/g/gI-06417/)
 - [0.47f 0402](https://akizukidenshi.com/catalog/g/gP-07504/)
