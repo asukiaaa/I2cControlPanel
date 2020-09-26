@@ -37,9 +37,9 @@ F 3 "" H 3450 3500 50  0001 C CNN
 	1    3450 3500
 	1    0    0    -1  
 $EndComp
-Text Label 3000 3650 0    50   ~ 0
-VertValueL
 Text Label 3000 3950 0    50   ~ 0
+VertValueL
+Text Label 3000 3650 0    50   ~ 0
 HoriValueL
 Wire Wire Line
 	3450 3500 3450 3550
@@ -439,8 +439,8 @@ $Comp
 L MCU_Microchip_ATmega:ATmega328PB-MU U2
 U 1 1 5ECFEE32
 P 5850 3800
-F 0 "U2" H 5850 2211 50  0000 C CNN
-F 1 "ATmega328PB-MU" H 5850 2120 50  0000 C CNN
+F 0 "U2" H 5700 2300 50  0000 C CNN
+F 1 "ATmega328PB-MU" H 6300 2300 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 5850 3800 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf" H 5850 3800 50  0001 C CNN
 	1    5850 3800
@@ -516,9 +516,9 @@ F 3 "" H 4700 3500 50  0001 C CNN
 	1    4700 3500
 	1    0    0    -1  
 $EndComp
-Text Label 4250 3950 0    50   ~ 0
-VertValueR
 Text Label 4250 3650 0    50   ~ 0
+VertValueR
+Text Label 4250 3950 0    50   ~ 0
 HoriValueR
 Wire Wire Line
 	4250 3650 4100 3650
