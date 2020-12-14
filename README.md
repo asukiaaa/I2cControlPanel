@@ -20,7 +20,6 @@ TODO
 - [0.01f 0603](https://akizukidenshi.com/catalog/g/gP-13387/)
 - 0.1uf 0603
 - [Diode](https://akizukidenshi.com/catalog/g/gI-06467/)
-- 1k 0603
 - 10k 0603
 
 # License
