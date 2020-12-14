@@ -2,6 +2,8 @@
 
 A wired control panel.
 
+![I2cControlPanel](./docs/I2cControlPanel.jpg)
+
 # Where to buy
 
 TODO
