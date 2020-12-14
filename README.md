@@ -27,3 +27,8 @@ TODO
 # License
 
 MIT
+
+# References
+
+- [エンコーダー（可変抵抗）が付いた有線コントローラーを作ってみた](https://asukiaaa.blogspot.com/2020/11/i2c-control-panel.html)
+- [WiredController](https://github.com/asukiaaa/WiredControllerPcb)
