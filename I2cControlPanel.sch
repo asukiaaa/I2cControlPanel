@@ -436,7 +436,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 2350 9450 2350
 $Comp
-L MCU_Microchip_ATmega:ATmega328PB-MU U2
+L I2cControlPanel-rescue:ATmega328PB-MU-MCU_Microchip_ATmega U2
 U 1 1 5ECFEE32
 P 5850 3800
 F 0 "U2" H 5700 2300 50  0000 C CNN
@@ -686,7 +686,7 @@ F 3 "" H 7950 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT_US Encoder0
+L I2cControlPanel-rescue:R_POT_US-Device Encoder0
 U 1 1 5EE7F6DB
 P 7700 3550
 F 0 "Encoder0" H 7632 3596 50  0000 R CNN
@@ -725,7 +725,7 @@ Rotery1
 Wire Wire Line
 	7500 3550 7550 3550
 $Comp
-L Device:R_POT_US Encoder1
+L I2cControlPanel-rescue:R_POT_US-Device Encoder1
 U 1 1 5EE88740
 P 7700 4400
 F 0 "Encoder1" H 7632 4446 50  0000 R CNN
@@ -813,7 +813,7 @@ JoyBtnL
 Wire Wire Line
 	3000 4150 2850 4150
 $Comp
-L Device:Jumper_NC_Small JP6
+L I2cControlPanel-rescue:Jumper_NC_Small-Device JP6
 U 1 1 5EEC83B2
 P 7600 2200
 F 0 "JP6" H 7500 2250 50  0000 C CNN
@@ -824,7 +824,7 @@ F 3 "~" H 7600 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP2
+L I2cControlPanel-rescue:Jumper_NO_Small-Device JP2
 U 1 1 5EEC8D64
 P 7600 2600
 F 0 "JP2" H 7500 2650 50  0000 C CNN
@@ -835,7 +835,7 @@ F 3 "~" H 7600 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP5
+L I2cControlPanel-rescue:Jumper_NO_Small-Device JP5
 U 1 1 5EECEA4D
 P 7600 2300
 F 0 "JP5" H 7500 2350 50  0000 C CNN
@@ -846,7 +846,7 @@ F 3 "~" H 7600 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP4
+L I2cControlPanel-rescue:Jumper_NO_Small-Device JP4
 U 1 1 5EECEC1A
 P 7600 2400
 F 0 "JP4" H 7500 2450 50  0000 C CNN
@@ -857,7 +857,7 @@ F 3 "~" H 7600 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP3
+L I2cControlPanel-rescue:Jumper_NO_Small-Device JP3
 U 1 1 5EECEDB0
 P 7600 2500
 F 0 "JP3" H 7500 2550 50  0000 C CNN
@@ -868,7 +868,7 @@ F 3 "~" H 7600 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP1
+L I2cControlPanel-rescue:Jumper_NO_Small-Device JP1
 U 1 1 5EECFE4F
 P 7600 2700
 F 0 "JP1" H 7500 2750 50  0000 C CNN
@@ -879,7 +879,7 @@ F 3 "~" H 7600 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP0
+L I2cControlPanel-rescue:Jumper_NO_Small-Device JP0
 U 1 1 5EED0549
 P 7600 2800
 F 0 "JP0" H 7500 2850 50  0000 C CNN
@@ -890,7 +890,7 @@ F 3 "~" H 7600 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP7
+L I2cControlPanel-rescue:Jumper_NO_Small-Device JP7
 U 1 1 5EED2155
 P 7600 2100
 F 0 "JP7" H 7500 2150 50  0000 C CNN
