@@ -302,7 +302,7 @@ L Device:R R1
 U 1 1 5D25EE66
 P 2650 5200
 F 0 "R1" V 2550 5200 50  0000 C CNN
-F 1 "1k" V 2650 5200 50  0000 C CNN
+F 1 "10k" V 2650 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2580 5200 50  0001 C CNN
 F 3 "~" H 2650 5200 50  0001 C CNN
 	1    2650 5200
@@ -313,7 +313,7 @@ L Device:R R2
 U 1 1 5D2DC18A
 P 2650 5650
 F 0 "R2" V 2550 5650 50  0000 C CNN
-F 1 "1k" V 2650 5650 50  0000 C CNN
+F 1 "10k" V 2650 5650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2580 5650 50  0001 C CNN
 F 3 "~" H 2650 5650 50  0001 C CNN
 	1    2650 5650
@@ -324,7 +324,7 @@ L Device:R R3
 U 1 1 5D2DCEB8
 P 2650 6100
 F 0 "R3" V 2550 6100 50  0000 C CNN
-F 1 "1k" V 2650 6100 50  0000 C CNN
+F 1 "10k" V 2650 6100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2580 6100 50  0001 C CNN
 F 3 "~" H 2650 6100 50  0001 C CNN
 	1    2650 6100
@@ -333,12 +333,12 @@ $EndComp
 $Comp
 L Switch:SW_Push BL0
 U 1 1 5D2E3CD5
-P 3900 5200
-F 0 "BL0" H 3750 5350 50  0000 C CNN
-F 1 "SW_Push" H 4100 5350 50  0000 C CNN
-F 2 "footprints:SW_Center_PUSH-12mm" H 3900 5400 50  0001 C CNN
-F 3 "~" H 3900 5400 50  0001 C CNN
-	1    3900 5200
+P 4200 5200
+F 0 "BL0" H 4050 5350 50  0000 C CNN
+F 1 "SW_Push" H 4400 5350 50  0000 C CNN
+F 2 "footprints:SW_Center_PUSH-12mm" H 4200 5400 50  0001 C CNN
+F 3 "~" H 4200 5400 50  0001 C CNN
+	1    4200 5200
 	1    0    0    -1  
 $EndComp
 Text Label 4400 5200 0    50   ~ 0
@@ -360,34 +360,34 @@ BTN1
 $Comp
 L Switch:SW_Push BL1
 U 1 1 5D36B867
-P 3900 5500
-F 0 "BL1" H 3750 5650 50  0000 C CNN
-F 1 "SW_Push" H 4100 5650 50  0000 C CNN
-F 2 "footprints:SW_Center_PUSH-12mm" H 3900 5700 50  0001 C CNN
-F 3 "~" H 3900 5700 50  0001 C CNN
-	1    3900 5500
+P 4200 5500
+F 0 "BL1" H 4050 5650 50  0000 C CNN
+F 1 "SW_Push" H 4400 5650 50  0000 C CNN
+F 2 "footprints:SW_Center_PUSH-12mm" H 4200 5700 50  0001 C CNN
+F 3 "~" H 4200 5700 50  0001 C CNN
+	1    4200 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push BR0
 U 1 1 5D36D8B0
-P 3900 5800
-F 0 "BR0" H 3750 5950 50  0000 C CNN
-F 1 "SW_Push" H 4100 5950 50  0000 C CNN
-F 2 "footprints:SW_Center_PUSH-12mm" H 3900 6000 50  0001 C CNN
-F 3 "~" H 3900 6000 50  0001 C CNN
-	1    3900 5800
+P 4200 5800
+F 0 "BR0" H 4050 5950 50  0000 C CNN
+F 1 "SW_Push" H 4400 5950 50  0000 C CNN
+F 2 "footprints:SW_Center_PUSH-12mm" H 4200 6000 50  0001 C CNN
+F 3 "~" H 4200 6000 50  0001 C CNN
+	1    4200 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push BR1
 U 1 1 5D371214
-P 3900 6100
-F 0 "BR1" H 3750 6250 50  0000 C CNN
-F 1 "SW_Push" H 4100 6250 50  0000 C CNN
-F 2 "footprints:SW_Center_PUSH-12mm" H 3900 6300 50  0001 C CNN
-F 3 "~" H 3900 6300 50  0001 C CNN
-	1    3900 6100
+P 4200 6100
+F 0 "BR1" H 4050 6250 50  0000 C CNN
+F 1 "SW_Push" H 4400 6250 50  0000 C CNN
+F 2 "footprints:SW_Center_PUSH-12mm" H 4200 6300 50  0001 C CNN
+F 3 "~" H 4200 6300 50  0001 C CNN
+	1    4200 6100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -889,17 +889,6 @@ F 3 "~" H 7600 2800 50  0001 C CNN
 	1    7600 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L I2cControlPanel-rescue:Jumper_NO_Small-Device JP7
-U 1 1 5EED2155
-P 7600 2100
-F 0 "JP7" H 7500 2150 50  0000 C CNN
-F 1 "NO" H 7700 2150 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7600 2100 50  0001 C CNN
-F 3 "~" H 7600 2100 50  0001 C CNN
-	1    7600 2100
-	1    0    0    -1  
-$EndComp
 Text Label 7350 2700 2    50   ~ 0
 BTN0
 Text Label 7350 2500 2    50   ~ 0
@@ -936,12 +925,9 @@ Connection ~ 7400 2300
 Wire Wire Line
 	7400 2300 7350 2300
 Wire Wire Line
-	7500 2100 7400 2100
-Wire Wire Line
 	7400 2100 7400 2200
 Wire Wire Line
 	7400 2200 7500 2200
-Connection ~ 7400 2100
 Wire Wire Line
 	7400 2100 7350 2100
 Text Label 6450 2600 0    50   ~ 0
@@ -997,7 +983,7 @@ L Device:R R4
 U 1 1 5F38B8AC
 P 2650 6550
 F 0 "R4" V 2550 6550 50  0000 C CNN
-F 1 "1k" V 2650 6550 50  0000 C CNN
+F 1 "10k" V 2650 6550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2580 6550 50  0001 C CNN
 F 3 "~" H 2650 6550 50  0001 C CNN
 	1    2650 6550
@@ -1014,105 +1000,6 @@ F 3 "~" H 2350 6550 50  0001 C CNN
 	1    2350 6550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D D6
-U 1 1 5F3A7B04
-P 7850 2300
-F 0 "D6" H 7750 2250 50  0000 C CNN
-F 1 "D" H 7850 2250 50  0000 C CNN
-F 2 "my-kicad-footprints:D_SOD-523F" H 7850 2300 50  0001 C CNN
-F 3 "~" H 7850 2300 50  0001 C CNN
-	1    7850 2300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D7
-U 1 1 5F3A7D96
-P 7850 2400
-F 0 "D7" H 7750 2350 50  0000 C CNN
-F 1 "D" H 7850 2350 50  0000 C CNN
-F 2 "my-kicad-footprints:D_SOD-523F" H 7850 2400 50  0001 C CNN
-F 3 "~" H 7850 2400 50  0001 C CNN
-	1    7850 2400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D8
-U 1 1 5F3A7FED
-P 7850 2500
-F 0 "D8" H 7750 2450 50  0000 C CNN
-F 1 "D" H 7850 2450 50  0000 C CNN
-F 2 "my-kicad-footprints:D_SOD-523F" H 7850 2500 50  0001 C CNN
-F 3 "~" H 7850 2500 50  0001 C CNN
-	1    7850 2500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D9
-U 1 1 5F3A823B
-P 7850 2600
-F 0 "D9" H 7750 2550 50  0000 C CNN
-F 1 "D" H 7850 2550 50  0000 C CNN
-F 2 "my-kicad-footprints:D_SOD-523F" H 7850 2600 50  0001 C CNN
-F 3 "~" H 7850 2600 50  0001 C CNN
-	1    7850 2600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D10
-U 1 1 5F3A8499
-P 7850 2700
-F 0 "D10" H 7750 2650 50  0000 C CNN
-F 1 "D" H 7850 2650 50  0000 C CNN
-F 2 "my-kicad-footprints:D_SOD-523F" H 7850 2700 50  0001 C CNN
-F 3 "~" H 7850 2700 50  0001 C CNN
-	1    7850 2700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D11
-U 1 1 5F3A8707
-P 7850 2800
-F 0 "D11" H 7750 2750 50  0000 C CNN
-F 1 "D" H 7850 2750 50  0000 C CNN
-F 2 "my-kicad-footprints:D_SOD-523F" H 7850 2800 50  0001 C CNN
-F 3 "~" H 7850 2800 50  0001 C CNN
-	1    7850 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D5
-U 1 1 5F39C95D
-P 7850 2200
-F 0 "D5" H 7750 2150 50  0000 C CNN
-F 1 "D" H 7850 2150 50  0000 C CNN
-F 2 "my-kicad-footprints:D_SOD-523F" H 7850 2200 50  0001 C CNN
-F 3 "~" H 7850 2200 50  0001 C CNN
-	1    7850 2200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D4
-U 1 1 5EF407AA
-P 7850 2100
-F 0 "D4" H 7750 2050 50  0000 C CNN
-F 1 "D" H 7850 2050 50  0000 C CNN
-F 2 "my-kicad-footprints:D_SOD-523F" H 7850 2100 50  0001 C CNN
-F 3 "~" H 7850 2100 50  0001 C CNN
-	1    7850 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D12
-U 1 1 5F3B96B2
-P 4250 5200
-F 0 "D12" H 4150 5150 50  0000 C CNN
-F 1 "D" H 4350 5150 50  0000 C CNN
-F 2 "my-kicad-footprints:D_SOD-523F" H 4250 5200 50  0001 C CNN
-F 3 "~" H 4250 5200 50  0001 C CNN
-	1    4250 5200
-	1    0    0    1   
-$EndComp
 Text Label 8300 2800 0    50   ~ 0
 BtnSig2
 Text Label 8300 2100 0    50   ~ 0
@@ -1120,10 +1007,7 @@ BtnSig1
 Wire Wire Line
 	8200 2700 8000 2700
 Wire Wire Line
-	8000 2100 8200 2100
-Wire Wire Line
 	8200 2100 8300 2100
-Connection ~ 8200 2100
 Wire Wire Line
 	8200 2100 8200 2300
 Wire Wire Line
@@ -1205,39 +1089,6 @@ F 3 "~" H 10350 2550 50  0001 C CNN
 $EndComp
 NoConn ~ 10550 1850
 NoConn ~ 10550 2450
-$Comp
-L Device:D D13
-U 1 1 5F4463AE
-P 4250 5500
-F 0 "D13" H 4150 5450 50  0000 C CNN
-F 1 "D" H 4350 5450 50  0000 C CNN
-F 2 "my-kicad-footprints:D_SOD-523F" H 4250 5500 50  0001 C CNN
-F 3 "~" H 4250 5500 50  0001 C CNN
-	1    4250 5500
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:D D14
-U 1 1 5F446674
-P 4250 5800
-F 0 "D14" H 4150 5750 50  0000 C CNN
-F 1 "D" H 4350 5750 50  0000 C CNN
-F 2 "my-kicad-footprints:D_SOD-523F" H 4250 5800 50  0001 C CNN
-F 3 "~" H 4250 5800 50  0001 C CNN
-	1    4250 5800
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:D D15
-U 1 1 5F44694A
-P 4250 6100
-F 0 "D15" H 4150 6050 50  0000 C CNN
-F 1 "D" H 4350 6050 50  0000 C CNN
-F 2 "my-kicad-footprints:D_SOD-523F" H 4250 6100 50  0001 C CNN
-F 3 "~" H 4250 6100 50  0001 C CNN
-	1    4250 6100
-	1    0    0    1   
-$EndComp
 $Comp
 L Switch:SW_Push SW6
 U 1 1 5F36D440
@@ -1351,4 +1202,138 @@ Wire Wire Line
 	4150 4050 4150 4250
 Wire Wire Line
 	6500 1550 6650 1550
+$Comp
+L my-kicad-symbols:Diode_4array_1SS309 D4
+U 1 1 604E85A6
+P 7850 2200
+F 0 "D4" H 7650 2150 50  0000 C CNN
+F 1 "1SS309" H 7850 2334 50  0001 C CNN
+F 2 "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" H 7850 2200 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3305&prodName=1SS309" H 7850 2200 50  0001 C CNN
+	1    7850 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L my-kicad-symbols:Diode_4array_1SS309 D4
+U 2 1 604ECFD1
+P 7850 2400
+F 0 "D4" H 7650 2350 50  0000 C CNN
+F 1 "1SS309" H 7850 2534 50  0001 C CNN
+F 2 "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" H 7850 2400 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3305&prodName=1SS309" H 7850 2400 50  0001 C CNN
+	2    7850 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L my-kicad-symbols:Diode_4array_1SS309 D4
+U 3 1 604EC2D2
+P 7850 2600
+F 0 "D4" H 7650 2550 50  0000 C CNN
+F 1 "1SS309" H 7850 2734 50  0001 C CNN
+F 2 "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" H 7850 2600 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3305&prodName=1SS309" H 7850 2600 50  0001 C CNN
+	3    7850 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L my-kicad-symbols:Diode_4array_1SS309 D4
+U 4 1 604EDEDE
+P 7850 2800
+F 0 "D4" H 7650 2750 50  0000 C CNN
+F 1 "1SS309" H 7850 2934 50  0001 C CNN
+F 2 "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" H 7850 2800 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3305&prodName=1SS309" H 7850 2800 50  0001 C CNN
+	4    7850 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L my-kicad-symbols:Diode_4array_1SS309 D5
+U 1 1 6054AF54
+P 7850 2050
+F 0 "D5" H 7650 2000 50  0000 C CNN
+F 1 "1SS309" H 7850 2184 50  0001 C CNN
+F 2 "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" H 7850 2050 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3305&prodName=1SS309" H 7850 2050 50  0001 C CNN
+	1    7850 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L my-kicad-symbols:Diode_4array_1SS309 D5
+U 2 1 6054B322
+P 7850 2300
+F 0 "D5" H 7650 2250 50  0000 C CNN
+F 1 "1SS309" H 7850 2434 50  0001 C CNN
+F 2 "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" H 7850 2300 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3305&prodName=1SS309" H 7850 2300 50  0001 C CNN
+	2    7850 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L my-kicad-symbols:Diode_4array_1SS309 D5
+U 3 1 6054B6E2
+P 7850 2500
+F 0 "D5" H 7650 2450 50  0000 C CNN
+F 1 "1SS309" H 7850 2634 50  0001 C CNN
+F 2 "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" H 7850 2500 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3305&prodName=1SS309" H 7850 2500 50  0001 C CNN
+	3    7850 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L my-kicad-symbols:Diode_4array_1SS309 D5
+U 4 1 6054BAD8
+P 7850 2700
+F 0 "D5" H 7650 2650 50  0000 C CNN
+F 1 "1SS309" H 7850 2834 50  0001 C CNN
+F 2 "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" H 7850 2700 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3305&prodName=1SS309" H 7850 2700 50  0001 C CNN
+	4    7850 2700
+	-1   0    0    1   
+$EndComp
+NoConn ~ 7700 2050
+NoConn ~ 8000 2050
+$Comp
+L my-kicad-symbols:Diode_4array_1SS309 D6
+U 1 1 6055EE43
+P 3850 5200
+F 0 "D6" H 3650 5250 50  0000 C CNN
+F 1 "1SS309" H 3850 5334 50  0001 C CNN
+F 2 "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" H 3850 5200 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3305&prodName=1SS309" H 3850 5200 50  0001 C CNN
+	1    3850 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L my-kicad-symbols:Diode_4array_1SS309 D6
+U 2 1 6055F509
+P 3850 5500
+F 0 "D6" H 3650 5550 50  0000 C CNN
+F 1 "1SS309" H 3850 5634 50  0001 C CNN
+F 2 "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" H 3850 5500 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3305&prodName=1SS309" H 3850 5500 50  0001 C CNN
+	2    3850 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L my-kicad-symbols:Diode_4array_1SS309 D6
+U 3 1 6055FD15
+P 3850 5800
+F 0 "D6" H 3650 5850 50  0000 C CNN
+F 1 "1SS309" H 3850 5934 50  0001 C CNN
+F 2 "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" H 3850 5800 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3305&prodName=1SS309" H 3850 5800 50  0001 C CNN
+	3    3850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L my-kicad-symbols:Diode_4array_1SS309 D6
+U 4 1 60560561
+P 3850 6100
+F 0 "D6" H 3650 6150 50  0000 C CNN
+F 1 "1SS309" H 3850 6234 50  0001 C CNN
+F 2 "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" H 3850 6100 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3305&prodName=1SS309" H 3850 6100 50  0001 C CNN
+	4    3850 6100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

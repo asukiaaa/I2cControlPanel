@@ -100,28 +100,6 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_D
-#
-DEF Device_D D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_D" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 10 -50 50 -50 -50 N
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_LED
 #
 DEF Device_LED D 0 40 N N 1 F N
@@ -159,6 +137,41 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# I2cControlPanel-rescue_1SS309-my-kicad-symbols
+#
+DEF I2cControlPanel-rescue_1SS309-my-kicad-symbols D 0 40 Y Y 4 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "I2cControlPanel-rescue_1SS309-my-kicad-symbols" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 6 -50 50 -50 -50 N
+P 2 1 1 0 50 0 -50 0 N
+P 2 1 1 0 50 50 50 -50 N
+P 3 1 1 0 50 50 -50 0 50 -50 N
+P 2 2 1 6 -50 50 -50 -50 N
+P 2 2 1 0 50 0 -50 0 N
+P 2 2 1 0 50 50 50 -50 N
+P 3 2 1 0 50 50 -50 0 50 -50 N
+P 2 3 1 6 -50 50 -50 -50 N
+P 2 3 1 0 50 0 -50 0 N
+P 2 3 1 0 50 50 50 -50 N
+P 3 3 1 0 50 50 -50 0 50 -50 N
+P 2 4 1 6 -50 50 -50 -50 N
+P 2 4 1 0 50 0 -50 0 N
+P 2 4 1 0 50 50 50 -50 N
+P 3 4 1 0 50 50 -50 0 50 -50 N
+X ~ 1 150 0 100 L 50 50 1 1 P
+X ~ 2 -150 0 100 R 50 50 1 1 P
+X ~ 2 -150 0 100 R 50 50 2 1 P
+X ~ 3 150 0 100 L 50 50 2 1 P
+X ~ 2 -150 0 100 R 50 50 3 1 P
+X ~ 4 150 0 100 L 50 50 3 1 P
+X ~ 2 -150 0 100 R 50 50 4 1 P
+X ~ 5 150 0 100 L 50 50 4 1 P
 ENDDRAW
 ENDDEF
 #
@@ -330,6 +343,44 @@ X VSS 6 0 -400 100 U 50 50 1 1 B
 X SDA 7 450 200 100 L 50 50 1 1 B
 X SCL 8 450 100 100 L 50 50 1 1 B
 X XRSETB 9 450 0 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# my-kicad-symbols_Diode_4array_1SS309
+#
+DEF my-kicad-symbols_Diode_4array_1SS309 D 0 40 Y Y 4 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "my-kicad-symbols_Diode_4array_1SS309" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *SC-74*
+$ENDFPLIST
+DRAW
+P 2 1 1 6 -50 50 -50 -50 N
+P 2 1 1 0 50 0 -50 0 N
+P 2 1 1 0 50 50 50 -50 N
+P 3 1 1 0 50 50 -50 0 50 -50 N
+P 2 2 1 6 -50 50 -50 -50 N
+P 2 2 1 0 50 0 -50 0 N
+P 2 2 1 0 50 50 50 -50 N
+P 3 2 1 0 50 50 -50 0 50 -50 N
+P 2 3 1 6 -50 50 -50 -50 N
+P 2 3 1 0 50 0 -50 0 N
+P 2 3 1 0 50 50 50 -50 N
+P 3 3 1 0 50 50 -50 0 50 -50 N
+P 2 4 1 6 -50 50 -50 -50 N
+P 2 4 1 0 50 0 -50 0 N
+P 2 4 1 0 50 50 50 -50 N
+P 3 4 1 0 50 50 -50 0 50 -50 N
+X ~ 1 150 0 100 L 50 50 1 1 P
+X ~ 2 -150 0 100 R 50 50 1 1 P
+X ~ 2 -150 0 100 R 50 50 2 1 P
+X ~ 3 150 0 100 L 50 50 2 1 P
+X ~ 2 -150 0 100 R 50 50 3 1 P
+X ~ 4 150 0 100 L 50 50 3 1 P
+X ~ 2 -150 0 100 R 50 50 4 1 P
+X ~ 5 150 0 100 L 50 50 4 1 P
 ENDDRAW
 ENDDEF
 #
