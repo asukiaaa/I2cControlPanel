@@ -6,7 +6,7 @@ A wired control panel.
 
 # Where to buy
 
-TODO
+- [I2cControlPanel | スイッチサイエンス](https://www.switch-science.com/catalog/6824/)
 
 # Components
 
