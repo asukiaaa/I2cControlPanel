@@ -42,11 +42,6 @@ VertValueL
 Text Label 3000 3650 0    50   ~ 0
 HoriValueL
 Wire Wire Line
-	3450 3500 3450 3550
-Connection ~ 3450 3550
-Wire Wire Line
-	3450 3550 3450 3850
-Wire Wire Line
 	3000 3650 2850 3650
 Wire Wire Line
 	2850 3950 3000 3950
@@ -486,13 +481,7 @@ F 3 "~" H 8950 4300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 3550 3450 3550
-Wire Wire Line
 	2850 3850 3450 3850
-Wire Wire Line
-	2850 3750 2900 3750
-Wire Wire Line
-	2900 3750 2900 4050
 Connection ~ 2900 4050
 $Comp
 L power:GND #PWR0115
@@ -516,9 +505,9 @@ F 3 "" H 4700 3500 50  0001 C CNN
 	1    4700 3500
 	1    0    0    -1  
 $EndComp
-Text Label 4250 3650 0    50   ~ 0
-VertValueR
 Text Label 4250 3950 0    50   ~ 0
+VertValueR
+Text Label 4250 3650 0    50   ~ 0
 HoriValueR
 Wire Wire Line
 	4250 3650 4100 3650
@@ -769,7 +758,7 @@ U 1 1 5EEA6591
 P 2650 3850
 F 0 "J1" H 2568 4367 50  0000 C CNN
 F 1 "JoystickL" H 2568 4276 50  0000 C CNN
-F 2 "my-kicad-footprints:LowHeightJoyStickWithButton" H 2650 3850 50  0001 C CNN
+F 2 "my-kicad-footprints:PS4tJoystick" H 2650 3850 50  0001 C CNN
 F 3 "~" H 2650 3850 50  0001 C CNN
 	1    2650 3850
 	-1   0    0    -1  
@@ -780,7 +769,7 @@ U 1 1 5EEA9628
 P 3900 3850
 F 0 "J5" H 3818 4367 50  0000 C CNN
 F 1 "JoystickR" H 3818 4276 50  0000 C CNN
-F 2 "my-kicad-footprints:LowHeightJoyStickWithButton" H 3900 3850 50  0001 C CNN
+F 2 "my-kicad-footprints:PS4tJoystick" H 3900 3850 50  0001 C CNN
 F 3 "~" H 3900 3850 50  0001 C CNN
 	1    3900 3850
 	-1   0    0    -1  
@@ -1182,25 +1171,6 @@ Wire Wire Line
 Wire Wire Line
 	10550 2250 10650 2250
 Wire Wire Line
-	4100 3850 4700 3850
-Wire Wire Line
-	4100 3750 4700 3750
-Connection ~ 4700 3750
-Wire Wire Line
-	4700 3750 4700 3850
-Wire Wire Line
-	4700 3500 4700 3750
-Wire Wire Line
-	4100 3550 4150 3550
-Wire Wire Line
-	4150 3550 4150 4050
-Connection ~ 4150 4250
-Wire Wire Line
-	4150 4050 4100 4050
-Connection ~ 4150 4050
-Wire Wire Line
-	4150 4050 4150 4250
-Wire Wire Line
 	6500 1550 6650 1550
 $Comp
 L my-kicad-symbols:Diode_4array_1SS309 D4
@@ -1336,4 +1306,34 @@ F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=3305&prodName=1SS30
 	4    3850 6100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3450 3500 3450 3750
+Wire Wire Line
+	2900 3550 2850 3550
+Wire Wire Line
+	2900 3550 2900 4050
+Wire Wire Line
+	2850 3750 3450 3750
+Connection ~ 3450 3750
+Wire Wire Line
+	3450 3750 3450 3850
+Wire Wire Line
+	4100 4050 4700 4050
+Wire Wire Line
+	4700 3500 4700 3550
+Wire Wire Line
+	4100 3550 4700 3550
+Connection ~ 4700 3550
+Wire Wire Line
+	4700 3550 4700 4050
+Wire Wire Line
+	4100 3750 4150 3750
+Wire Wire Line
+	4150 3750 4150 3850
+Connection ~ 4150 4250
+Wire Wire Line
+	4150 3850 4100 3850
+Connection ~ 4150 3850
+Wire Wire Line
+	4150 3850 4150 4250
 $EndSCHEMATC
