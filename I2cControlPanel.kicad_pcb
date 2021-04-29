@@ -2389,7 +2389,7 @@
   (gr_arc (start 146 146) (end 150 146) (angle 90) (layer Edge.Cuts) (width 0.05) (tstamp 5EEFC522))
   (gr_arc (start 54 146) (end 54 150) (angle 90) (layer Edge.Cuts) (width 0.05) (tstamp 5EEFC522))
   (gr_arc (start 54 54) (end 50 54) (angle 90) (layer Edge.Cuts) (width 0.05))
-  (gr_text Rev2021.04 (at 127.45 148.65) (layer F.SilkS)
+  (gr_text Rev2021.05 (at 127.45 148.65) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text I2cControlPanel (at 113.75 148.35) (layer F.SilkS)
