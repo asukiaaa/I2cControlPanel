@@ -586,48 +586,9 @@ HoriValueR
 Text Label 6450 3700 0    50   ~ 0
 VertValueR
 Wire Wire Line
-	8550 5050 8750 5050
-Connection ~ 8550 5050
-Wire Wire Line
-	8750 5500 8800 5500
-Connection ~ 8750 5500
-Wire Wire Line
-	8750 5350 8750 5500
-Wire Wire Line
-	8550 5400 8800 5400
-Connection ~ 8550 5400
-Wire Wire Line
-	8550 5350 8550 5400
-Wire Wire Line
-	8400 5400 8550 5400
-Wire Wire Line
-	8400 5500 8750 5500
-Wire Wire Line
 	7950 5050 7950 5150
 Wire Wire Line
 	7400 5050 7400 5200
-$Comp
-L Device:R R6
-U 1 1 5EE5E7B0
-P 8750 5200
-F 0 "R6" H 8800 5300 50  0000 L CNN
-F 1 "10k" V 8750 5100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8680 5200 50  0001 C CNN
-F 3 "~" H 8750 5200 50  0001 C CNN
-	1    8750 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5EE5BCBA
-P 8550 5200
-F 0 "R5" H 8600 5300 50  0000 L CNN
-F 1 "10k" V 8550 5100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8480 5200 50  0001 C CNN
-F 3 "~" H 8550 5200 50  0001 C CNN
-	1    8550 5200
-	1    0    0    -1  
-$EndComp
 Text Label 8800 5500 0    50   ~ 0
 SCL_inside
 Text Label 8800 5400 0    50   ~ 0
@@ -680,32 +641,10 @@ U 1 1 5EE7F6DB
 P 7700 3550
 F 0 "Encoder0" H 7632 3596 50  0000 R CNN
 F 1 "R_POT_US" H 7632 3505 50  0000 R CNN
-F 2 "my-kicad-footprints:Volume" H 7700 3550 50  0001 C CNN
+F 2 "my-kicad-footprints:RoteryEncoderWithPowerLabel" H 7700 3550 50  0001 C CNN
 F 3 "~" H 7700 3550 50  0001 C CNN
 	1    7700 3550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0123
-U 1 1 5EE80F27
-P 7700 3400
-F 0 "#PWR0123" H 7700 3250 50  0001 C CNN
-F 1 "+3V3" H 7715 3573 50  0000 C CNN
-F 2 "" H 7700 3400 50  0001 C CNN
-F 3 "" H 7700 3400 50  0001 C CNN
-	1    7700 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 5EE8236B
-P 7700 3700
-F 0 "#PWR0124" H 7700 3450 50  0001 C CNN
-F 1 "GND" H 7705 3527 50  0000 C CNN
-F 2 "" H 7700 3700 50  0001 C CNN
-F 3 "" H 7700 3700 50  0001 C CNN
-	1    7700 3700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Label 7500 3550 2    50   ~ 0
 Rotery1
@@ -719,31 +658,31 @@ U 1 1 5EE88740
 P 7700 4400
 F 0 "Encoder1" H 7632 4446 50  0000 R CNN
 F 1 "R_POT_US" H 7632 4355 50  0000 R CNN
-F 2 "my-kicad-footprints:Volume" H 7700 4400 50  0001 C CNN
+F 2 "my-kicad-footprints:RoteryEncoderWithPowerLabel" H 7700 4400 50  0001 C CNN
 F 3 "~" H 7700 4400 50  0001 C CNN
 	1    7700 4400
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+3V3 #PWR0130
 U 1 1 5EE88746
-P 7700 4250
-F 0 "#PWR0130" H 7700 4100 50  0001 C CNN
-F 1 "+3V3" H 7715 4423 50  0000 C CNN
-F 2 "" H 7700 4250 50  0001 C CNN
-F 3 "" H 7700 4250 50  0001 C CNN
-	1    7700 4250
+P 8000 4250
+F 0 "#PWR0130" H 8000 4100 50  0001 C CNN
+F 1 "+3V3" H 8015 4423 50  0000 C CNN
+F 2 "" H 8000 4250 50  0001 C CNN
+F 3 "" H 8000 4250 50  0001 C CNN
+	1    8000 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0131
 U 1 1 5EE8874C
-P 7700 4550
-F 0 "#PWR0131" H 7700 4300 50  0001 C CNN
-F 1 "GND" H 7705 4377 50  0000 C CNN
-F 2 "" H 7700 4550 50  0001 C CNN
-F 3 "" H 7700 4550 50  0001 C CNN
-	1    7700 4550
+P 7350 4550
+F 0 "#PWR0131" H 7350 4300 50  0001 C CNN
+F 1 "GND" H 7355 4377 50  0000 C CNN
+F 2 "" H 7350 4550 50  0001 C CNN
+F 3 "" H 7350 4550 50  0001 C CNN
+	1    7350 4550
 	1    0    0    -1  
 $EndComp
 Text Label 7500 4400 2    50   ~ 0
@@ -1105,8 +1044,6 @@ $EndComp
 Text Label 8400 5600 0    50   ~ 0
 RST
 Wire Wire Line
-	7950 5050 8550 5050
-Wire Wire Line
 	2550 1000 2550 1100
 Wire Wire Line
 	2550 1100 2900 1100
@@ -1336,4 +1273,82 @@ Wire Wire Line
 Connection ~ 4150 3850
 Wire Wire Line
 	4150 3850 4150 4250
+$Comp
+L I2cControlPanel-rescue:Jumper_NC_Small-Device JP10
+U 1 1 608FA385
+P 7800 4250
+F 0 "JP10" H 7700 4300 50  0000 C CNN
+F 1 "NC" H 7900 4300 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 7800 4250 50  0001 C CNN
+F 3 "~" H 7800 4250 50  0001 C CNN
+	1    7800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5EE8236B
+P 7350 3700
+F 0 "#PWR0124" H 7350 3450 50  0001 C CNN
+F 1 "GND" H 7355 3527 50  0000 C CNN
+F 2 "" H 7350 3700 50  0001 C CNN
+F 3 "" H 7350 3700 50  0001 C CNN
+	1    7350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0123
+U 1 1 5EE80F27
+P 8000 3400
+F 0 "#PWR0123" H 8000 3250 50  0001 C CNN
+F 1 "+3V3" H 8015 3573 50  0000 C CNN
+F 2 "" H 8000 3400 50  0001 C CNN
+F 3 "" H 8000 3400 50  0001 C CNN
+	1    8000 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3400 7900 3400
+$Comp
+L I2cControlPanel-rescue:Jumper_NC_Small-Device JP7
+U 1 1 6090B9D4
+P 7450 3700
+F 0 "JP7" H 7350 3750 50  0000 C CNN
+F 1 "NC" H 7550 3750 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 7450 3700 50  0001 C CNN
+F 3 "~" H 7450 3700 50  0001 C CNN
+	1    7450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3700 7700 3700
+Wire Wire Line
+	8000 4250 7900 4250
+$Comp
+L I2cControlPanel-rescue:Jumper_NC_Small-Device JP9
+U 1 1 60926E98
+P 7800 3400
+F 0 "JP9" H 7700 3450 50  0000 C CNN
+F 1 "NC" H 7900 3450 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 7800 3400 50  0001 C CNN
+F 3 "~" H 7800 3400 50  0001 C CNN
+	1    7800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L I2cControlPanel-rescue:Jumper_NC_Small-Device JP8
+U 1 1 60927344
+P 7450 4550
+F 0 "JP8" H 7350 4600 50  0000 C CNN
+F 1 "NC" H 7550 4600 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 7450 4550 50  0001 C CNN
+F 3 "~" H 7450 4550 50  0001 C CNN
+	1    7450 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 4550 7700 4550
+Wire Wire Line
+	8400 5400 8800 5400
+Wire Wire Line
+	8400 5500 8800 5500
 $EndSCHEMATC
