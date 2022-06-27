@@ -2594,7 +2594,7 @@
   (gr_text "GND" (at 115.9 53.4 270) (layer "F.SilkS") (tstamp b079939f-e87c-4f50-b3b6-5bba380d5c28)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Rev2021.05" (at 127.45 148.65) (layer "F.SilkS") (tstamp cba0b5ef-3fba-4006-81e8-f035313cf9d1)
+  (gr_text "Rev2022.07" (at 127.45 148.65) (layer "F.SilkS") (tstamp cba0b5ef-3fba-4006-81e8-f035313cf9d1)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "4.3mm for M4" (at 135.382 41.402) (layer "Dwgs.User") (tstamp 4f240a5f-b5f7-4cce-91a9-9962dbda7622)
