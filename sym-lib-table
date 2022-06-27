@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name I2cControlPanel-rescue)(type Legacy)(uri ${KIPRJMOD}/I2cControlPanel-rescue.lib)(options "")(descr ""))
-  (lib (name my-kicad-symbols)(type Legacy)(uri ${KIPRJMOD}/my-kicad-symbols/my-kicad-symbols.lib)(options "")(descr ""))
+  (lib (name asukiaaa-kicad-symbols)(type KiCad)(uri ${KIPRJMOD}/asukiaaa-kicad-symbols/asukiaaa-kicad-symbols.kicad_sym)(options "")(descr ""))
 )

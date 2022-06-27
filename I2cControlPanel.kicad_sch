@@ -852,7 +852,7 @@
         )
       )
     )
-    (symbol "my-kicad-symbols:AQM0802" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "asukiaaa-kicad-symbols:AQM0802" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 7.62 -8.89 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -910,7 +910,7 @@
         )
       )
     )
-    (symbol "my-kicad-symbols:Diode_4array_1SS309" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "asukiaaa-kicad-symbols:Diode_4array_1SS309" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1102,7 +1102,7 @@
         )
       )
     )
-    (symbol "my-kicad-symbols:NJM12888F33" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "asukiaaa-kicad-symbols:NJM12888F33" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 2.54 -6.35 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -2694,7 +2694,7 @@
     (pin "9" (uuid 67661196-420c-4001-8062-09ab9c17263d))
   )
 
-  (symbol (lib_id "my-kicad-symbols:AQM0802") (at 201.93 142.24 0) (unit 1)
+  (symbol (lib_id "asukiaaa-kicad-symbols:AQM0802") (at 201.93 142.24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ee24fd4)
     (property "Reference" "U3" (id 0) (at 195.58 132.08 0))
@@ -3227,7 +3227,7 @@
     (pin "2" (uuid 52914465-d478-491c-a5c0-768e4a75868e))
   )
 
-  (symbol (lib_id "my-kicad-symbols:NJM12888F33") (at 83.82 35.56 0) (unit 1)
+  (symbol (lib_id "asukiaaa-kicad-symbols:NJM12888F33") (at 83.82 35.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f3eaec3)
     (property "Reference" "U1" (id 0) (at 83.82 23.3426 0))
@@ -3277,7 +3277,7 @@
     (pin "3" (uuid 745b57ab-312e-4946-98b4-f68a0cb0e61b))
   )
 
-  (symbol (lib_id "my-kicad-symbols:Diode_4array_1SS309") (at 199.39 55.88 180) (unit 1)
+  (symbol (lib_id "asukiaaa-kicad-symbols:Diode_4array_1SS309") (at 199.39 55.88 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000604e85a6)
     (property "Reference" "D4" (id 0) (at 204.47 54.61 0))
@@ -3300,7 +3300,7 @@
     (pin "5" (uuid dcf1a7ae-0654-4482-a556-0ad5563760cd))
   )
 
-  (symbol (lib_id "my-kicad-symbols:Diode_4array_1SS309") (at 199.39 66.04 180) (unit 3)
+  (symbol (lib_id "asukiaaa-kicad-symbols:Diode_4array_1SS309") (at 199.39 66.04 180) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000604ec2d2)
     (property "Reference" "D4" (id 0) (at 204.47 64.77 0))
@@ -3323,7 +3323,7 @@
     (pin "5" (uuid 92af36d8-938a-4042-a5f3-780247a1212d))
   )
 
-  (symbol (lib_id "my-kicad-symbols:Diode_4array_1SS309") (at 199.39 60.96 180) (unit 2)
+  (symbol (lib_id "asukiaaa-kicad-symbols:Diode_4array_1SS309") (at 199.39 60.96 180) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000604ecfd1)
     (property "Reference" "D4" (id 0) (at 204.47 59.69 0))
@@ -3346,7 +3346,7 @@
     (pin "5" (uuid 195f0019-aa84-4bda-99cc-6fe3de0f0fd5))
   )
 
-  (symbol (lib_id "my-kicad-symbols:Diode_4array_1SS309") (at 199.39 71.12 180) (unit 4)
+  (symbol (lib_id "asukiaaa-kicad-symbols:Diode_4array_1SS309") (at 199.39 71.12 180) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000604edede)
     (property "Reference" "D4" (id 0) (at 204.47 69.85 0))
@@ -3369,7 +3369,7 @@
     (pin "5" (uuid e994f0d7-6317-4f0c-84af-1f60fa7e855e))
   )
 
-  (symbol (lib_id "my-kicad-symbols:Diode_4array_1SS309") (at 199.39 52.07 180) (unit 1)
+  (symbol (lib_id "asukiaaa-kicad-symbols:Diode_4array_1SS309") (at 199.39 52.07 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006054af54)
     (property "Reference" "D5" (id 0) (at 204.47 50.8 0))
@@ -3392,7 +3392,7 @@
     (pin "5" (uuid 58061f24-9741-4351-9e39-023b69a8409d))
   )
 
-  (symbol (lib_id "my-kicad-symbols:Diode_4array_1SS309") (at 199.39 58.42 180) (unit 2)
+  (symbol (lib_id "asukiaaa-kicad-symbols:Diode_4array_1SS309") (at 199.39 58.42 180) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006054b322)
     (property "Reference" "D5" (id 0) (at 204.47 57.15 0))
@@ -3415,7 +3415,7 @@
     (pin "5" (uuid d3d5ee89-c1fe-4d8f-bc19-d566212b60f8))
   )
 
-  (symbol (lib_id "my-kicad-symbols:Diode_4array_1SS309") (at 199.39 63.5 180) (unit 3)
+  (symbol (lib_id "asukiaaa-kicad-symbols:Diode_4array_1SS309") (at 199.39 63.5 180) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006054b6e2)
     (property "Reference" "D5" (id 0) (at 204.47 62.23 0))
@@ -3438,7 +3438,7 @@
     (pin "5" (uuid 05bff1c8-2c0e-48c3-bc80-5050b65328db))
   )
 
-  (symbol (lib_id "my-kicad-symbols:Diode_4array_1SS309") (at 199.39 68.58 180) (unit 4)
+  (symbol (lib_id "asukiaaa-kicad-symbols:Diode_4array_1SS309") (at 199.39 68.58 180) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006054bad8)
     (property "Reference" "D5" (id 0) (at 204.47 67.31 0))
@@ -3461,7 +3461,7 @@
     (pin "5" (uuid af1cec96-1074-4ad5-a7b9-9aeb1fc8cc9d))
   )
 
-  (symbol (lib_id "my-kicad-symbols:Diode_4array_1SS309") (at 97.79 132.08 0) (unit 1)
+  (symbol (lib_id "asukiaaa-kicad-symbols:Diode_4array_1SS309") (at 97.79 132.08 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006055ee43)
     (property "Reference" "D6" (id 0) (at 92.71 130.81 0))
@@ -3484,7 +3484,7 @@
     (pin "5" (uuid 27415d6b-10a2-480d-99db-7a0e7ecf3bc6))
   )
 
-  (symbol (lib_id "my-kicad-symbols:Diode_4array_1SS309") (at 97.79 139.7 0) (unit 2)
+  (symbol (lib_id "asukiaaa-kicad-symbols:Diode_4array_1SS309") (at 97.79 139.7 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006055f509)
     (property "Reference" "D6" (id 0) (at 92.71 138.43 0))
@@ -3507,7 +3507,7 @@
     (pin "5" (uuid 4245c2aa-093c-4394-bfa5-36ac6e15184f))
   )
 
-  (symbol (lib_id "my-kicad-symbols:Diode_4array_1SS309") (at 97.79 147.32 0) (unit 3)
+  (symbol (lib_id "asukiaaa-kicad-symbols:Diode_4array_1SS309") (at 97.79 147.32 0) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006055fd15)
     (property "Reference" "D6" (id 0) (at 92.71 146.05 0))
@@ -3530,7 +3530,7 @@
     (pin "5" (uuid d18212c1-f716-4ec3-8d86-434cc933c4f5))
   )
 
-  (symbol (lib_id "my-kicad-symbols:Diode_4array_1SS309") (at 97.79 154.94 0) (unit 4)
+  (symbol (lib_id "asukiaaa-kicad-symbols:Diode_4array_1SS309") (at 97.79 154.94 0) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060560561)
     (property "Reference" "D6" (id 0) (at 92.71 153.67 0))
@@ -3754,52 +3754,52 @@
       (reference "D3") (unit 1) (value "LED3") (footprint "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000604e85a6"
-      (reference "D4") (unit 1) (value "1SS309") (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
+      (reference "D4") (unit 1) (value "1SS309") (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
     )
     (path "/00000000-0000-0000-0000-0000604ecfd1"
-      (reference "D4") (unit 2) (value "1SS309") (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
+      (reference "D4") (unit 2) (value "1SS309") (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
     )
     (path "/00000000-0000-0000-0000-0000604ec2d2"
-      (reference "D4") (unit 3) (value "1SS309") (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
+      (reference "D4") (unit 3) (value "1SS309") (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
     )
     (path "/00000000-0000-0000-0000-0000604edede"
-      (reference "D4") (unit 4) (value "1SS309") (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
+      (reference "D4") (unit 4) (value "1SS309") (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
     )
     (path "/00000000-0000-0000-0000-00006054af54"
-      (reference "D5") (unit 1) (value "1SS309") (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
+      (reference "D5") (unit 1) (value "1SS309") (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
     )
     (path "/00000000-0000-0000-0000-00006054b322"
-      (reference "D5") (unit 2) (value "1SS309") (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
+      (reference "D5") (unit 2) (value "1SS309") (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
     )
     (path "/00000000-0000-0000-0000-00006054b6e2"
-      (reference "D5") (unit 3) (value "1SS309") (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
+      (reference "D5") (unit 3) (value "1SS309") (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
     )
     (path "/00000000-0000-0000-0000-00006054bad8"
-      (reference "D5") (unit 4) (value "1SS309") (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
+      (reference "D5") (unit 4) (value "1SS309") (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
     )
     (path "/00000000-0000-0000-0000-00006055ee43"
-      (reference "D6") (unit 1) (value "1SS309") (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
+      (reference "D6") (unit 1) (value "1SS309") (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
     )
     (path "/00000000-0000-0000-0000-00006055f509"
-      (reference "D6") (unit 2) (value "1SS309") (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
+      (reference "D6") (unit 2) (value "1SS309") (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
     )
     (path "/00000000-0000-0000-0000-00006055fd15"
-      (reference "D6") (unit 3) (value "1SS309") (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
+      (reference "D6") (unit 3) (value "1SS309") (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
     )
     (path "/00000000-0000-0000-0000-000060560561"
-      (reference "D6") (unit 4) (value "1SS309") (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
+      (reference "D6") (unit 4) (value "1SS309") (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm")
     )
     (path "/00000000-0000-0000-0000-00005ee7f6db"
-      (reference "Encoder0") (unit 1) (value "R_POT_US") (footprint "my-kicad-footprints:RoteryEncoderWithPowerLabel")
+      (reference "Encoder0") (unit 1) (value "R_POT_US") (footprint "asukiaaa-kicad-footprints:RoteryEncoderWithPowerLabel")
     )
     (path "/00000000-0000-0000-0000-00005ee88740"
-      (reference "Encoder1") (unit 1) (value "R_POT_US") (footprint "my-kicad-footprints:RoteryEncoderWithPowerLabel")
+      (reference "Encoder1") (unit 1) (value "R_POT_US") (footprint "asukiaaa-kicad-footprints:RoteryEncoderWithPowerLabel")
     )
     (path "/00000000-0000-0000-0000-00005eea6591"
-      (reference "J1") (unit 1) (value "JoystickL") (footprint "my-kicad-footprints:PS4tJoystick")
+      (reference "J1") (unit 1) (value "JoystickL") (footprint "asukiaaa-kicad-footprints:PS4tJoystick")
     )
     (path "/00000000-0000-0000-0000-00005d28ee0f"
-      (reference "J2") (unit 1) (value "Conn_01x06") (footprint "my-kicad-footprints:2x03_P2.54mm_Pads")
+      (reference "J2") (unit 1) (value "Conn_01x06") (footprint "asukiaaa-kicad-footprints:2x03_P2.54mm_Pads")
     )
     (path "/00000000-0000-0000-0000-00005d2aee9a"
       (reference "J3") (unit 1) (value "Conn_01x04") (footprint "footprints:NS-Tech_Grove_1x04_P2mm_Horizontal")
@@ -3808,7 +3808,7 @@
       (reference "J4") (unit 1) (value "Conn_01x04") (footprint "TerminalBlock:TerminalBlock_bornier-4_P5.08mm")
     )
     (path "/00000000-0000-0000-0000-00005eea9628"
-      (reference "J5") (unit 1) (value "JoystickR") (footprint "my-kicad-footprints:PS4tJoystick")
+      (reference "J5") (unit 1) (value "JoystickR") (footprint "asukiaaa-kicad-footprints:PS4tJoystick")
     )
     (path "/00000000-0000-0000-0000-00005ee785a2"
       (reference "J6") (unit 1) (value "Conn_01x04") (footprint "footprints:NS-Tech_Grove_1x04_P2mm_Horizontal")
@@ -3862,10 +3862,10 @@
       (reference "SW6") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/00000000-0000-0000-0000-00005eec5d06"
-      (reference "Slide0") (unit 1) (value "SlideSwitch") (footprint "my-kicad-footprints:SlideSwitch_SS12D01G4_2posi_1line")
+      (reference "Slide0") (unit 1) (value "SlideSwitch") (footprint "asukiaaa-kicad-footprints:SlideSwitch_SS12D01G4_2posi_1line")
     )
     (path "/00000000-0000-0000-0000-00005f41d1bb"
-      (reference "Slide1") (unit 1) (value "SlideSwitch") (footprint "my-kicad-footprints:SlideSwitch_SS12D01G4_2posi_1line")
+      (reference "Slide1") (unit 1) (value "SlideSwitch") (footprint "asukiaaa-kicad-footprints:SlideSwitch_SS12D01G4_2posi_1line")
     )
     (path "/00000000-0000-0000-0000-00005f3eaec3"
       (reference "U1") (unit 1) (value "NJM12888F33") (footprint "Package_TO_SOT_SMD:SOT-23-5")
@@ -3874,7 +3874,7 @@
       (reference "U2") (unit 1) (value "ATmega328PB-MU") (footprint "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm")
     )
     (path "/00000000-0000-0000-0000-00005ee24fd4"
-      (reference "U3") (unit 1) (value "AQM0802") (footprint "my-kicad-footprints:AQM0802A-RN-GBW")
+      (reference "U3") (unit 1) (value "AQM0802") (footprint "asukiaaa-kicad-footprints:AQM0802A-RN-GBW")
     )
   )
 )

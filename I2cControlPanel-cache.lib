@@ -290,11 +290,11 @@ X C 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# my-kicad-symbols_AQM0802
+# asukiaaa-kicad-symbols_AQM0802
 #
-DEF my-kicad-symbols_AQM0802 U 0 40 Y Y 1 F N
+DEF asukiaaa-kicad-symbols_AQM0802 U 0 40 Y Y 1 F N
 F0 "U" 300 -350 50 H V C CNN
-F1 "my-kicad-symbols_AQM0802" 250 400 50 H V C CNN
+F1 "asukiaaa-kicad-symbols_AQM0802" 250 400 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -311,11 +311,11 @@ X XRSETB 9 450 0 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# my-kicad-symbols_Diode_4array_1SS309
+# asukiaaa-kicad-symbols_Diode_4array_1SS309
 #
-DEF my-kicad-symbols_Diode_4array_1SS309 D 0 40 Y Y 4 F N
+DEF asukiaaa-kicad-symbols_Diode_4array_1SS309 D 0 40 Y Y 4 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "my-kicad-symbols_Diode_4array_1SS309" 0 -100 50 H V C CNN
+F1 "asukiaaa-kicad-symbols_Diode_4array_1SS309" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -349,11 +349,11 @@ X ~ 5 150 0 100 L 50 50 4 1 P
 ENDDRAW
 ENDDEF
 #
-# my-kicad-symbols_NJM12888F33
+# asukiaaa-kicad-symbols_NJM12888F33
 #
-DEF my-kicad-symbols_NJM12888F33 U 0 40 Y Y 1 F N
+DEF asukiaaa-kicad-symbols_NJM12888F33 U 0 40 Y Y 1 F N
 F0 "U" 100 -250 50 H V C CNN
-F1 "my-kicad-symbols_NJM12888F33" 350 250 50 H V C CNN
+F1 "asukiaaa-kicad-symbols_NJM12888F33" 350 250 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

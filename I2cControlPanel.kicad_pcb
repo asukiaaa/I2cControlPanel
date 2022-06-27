@@ -544,7 +544,7 @@
     )
   )
 
-  (footprint "my-kicad-footprints:AQM0802A-RN-GBW" (layer "F.Cu")
+  (footprint "asukiaaa-kicad-footprints:AQM0802A-RN-GBW" (layer "F.Cu")
     (tedit 5E9948C9) (tstamp 00000000-0000-0000-0000-00005ee23141)
     (at 100 74.462)
     (descr "http://akizukidenshi.com/download/ds/xiamen/AQM0802.pdf")
@@ -1106,7 +1106,7 @@
       ) (tstamp 32d74bb4-4280-446a-895f-8590d9c29912))
   )
 
-  (footprint "my-kicad-footprints:PS4tJoystick" (layer "F.Cu")
+  (footprint "asukiaaa-kicad-footprints:PS4tJoystick" (layer "F.Cu")
     (tedit 5EEA233D) (tstamp 00000000-0000-0000-0000-00005eebcc33)
     (at 70 72 90)
     (path "/00000000-0000-0000-0000-00005eea6591")
@@ -1163,7 +1163,7 @@
     (pad "NC" thru_hole circle locked (at 0 4.3 90) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask) (tstamp ff7e10e0-ba35-4df2-96f6-a6f04a2ee5cc))
   )
 
-  (footprint "my-kicad-footprints:PS4tJoystick" (layer "F.Cu")
+  (footprint "asukiaaa-kicad-footprints:PS4tJoystick" (layer "F.Cu")
     (tedit 5EEA233D) (tstamp 00000000-0000-0000-0000-00005eebccb5)
     (at 130 72 -90)
     (path "/00000000-0000-0000-0000-00005eea9628")
@@ -1220,7 +1220,7 @@
     (pad "NC" thru_hole circle locked (at -5 6.35 270) (size 1.7 1.7) (drill 1.3) (layers *.Cu *.Mask) (tstamp e97f50d7-ae0b-4f39-a0ef-d39faf0ca716))
   )
 
-  (footprint "my-kicad-footprints:RoteryEncoderWithPowerLabel" (layer "F.Cu")
+  (footprint "asukiaaa-kicad-footprints:RoteryEncoderWithPowerLabel" (layer "F.Cu")
     (tedit 608A49BB) (tstamp 00000000-0000-0000-0000-00005eebcefc)
     (at 75 130)
     (descr "http://akizukidenshi.com/catalog/g/gP-00244/")
@@ -1248,7 +1248,7 @@
     (pad "NC" thru_hole oval locked (at -5.25 0) (size 2.5 2.8) (drill oval 1.8 2) (layers *.Cu *.Mask) (tstamp ac5040d1-d4fe-457d-b32a-7b203eacd4f2))
   )
 
-  (footprint "my-kicad-footprints:RoteryEncoderWithPowerLabel" (layer "F.Cu")
+  (footprint "asukiaaa-kicad-footprints:RoteryEncoderWithPowerLabel" (layer "F.Cu")
     (tedit 608A49BB) (tstamp 00000000-0000-0000-0000-00005eebcf09)
     (at 125 130)
     (descr "http://akizukidenshi.com/catalog/g/gP-00244/")
@@ -1276,7 +1276,7 @@
     (pad "NC" thru_hole oval locked (at -5.25 0) (size 2.5 2.8) (drill oval 1.8 2) (layers *.Cu *.Mask) (tstamp 56497d4d-4ab2-45ae-ac40-07a7d4373de7))
   )
 
-  (footprint "my-kicad-footprints:SlideSwitch_SS12D01G4_2posi_1line" (layer "F.Cu")
+  (footprint "asukiaaa-kicad-footprints:SlideSwitch_SS12D01G4_2posi_1line" (layer "F.Cu")
     (tedit 604B657D) (tstamp 00000000-0000-0000-0000-00005eebcfe5)
     (at 95 130 -90)
     (descr "https://akizukidenshi.com/download/ds/switronic/SS12D01G4-G_2.pdf")
@@ -1349,7 +1349,7 @@
     )
   )
 
-  (footprint "my-kicad-footprints:SlideSwitch_SS12D01G4_2posi_1line" (layer "F.Cu")
+  (footprint "asukiaaa-kicad-footprints:SlideSwitch_SS12D01G4_2posi_1line" (layer "F.Cu")
     (tedit 604B657D) (tstamp 00000000-0000-0000-0000-00005f367c87)
     (at 105 130 -90)
     (descr "https://akizukidenshi.com/download/ds/switronic/SS12D01G4-G_2.pdf")
@@ -1686,7 +1686,7 @@
     )
   )
 
-  (footprint "my-kicad-footprints:2x03_P2.54mm_Pads" (layer "B.Cu")
+  (footprint "asukiaaa-kicad-footprints:2x03_P2.54mm_Pads" (layer "B.Cu")
     (tedit 5E665205) (tstamp 00000000-0000-0000-0000-00005ee13bad)
     (at 115.7 70.5 180)
     (descr "surface-mounted straight pin header, 2x03, 2.54mm pitch, double rows")
@@ -2157,7 +2157,7 @@
     )
   )
 
-  (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" (layer "B.Cu")
+  (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" (layer "B.Cu")
     (tedit 604B5C0D) (tstamp 00000000-0000-0000-0000-0000604bd012)
     (at 95.3125 61.4)
     (descr "SC-74, 5 Pin")
@@ -2204,7 +2204,7 @@
     )
   )
 
-  (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" (layer "B.Cu")
+  (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" (layer "B.Cu")
     (tedit 604B5C0D) (tstamp 00000000-0000-0000-0000-0000604bd027)
     (at 104.7 61)
     (descr "SC-74, 5 Pin")
@@ -2251,7 +2251,7 @@
     )
   )
 
-  (footprint "my-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" (layer "B.Cu")
+  (footprint "asukiaaa-kicad-footprints:SC-74-5_1.6x2.9mm_P0.95mm" (layer "B.Cu")
     (tedit 604B5C0D) (tstamp 00000000-0000-0000-0000-0000604bd03c)
     (at 85.45 78.6)
     (descr "SC-74, 5 Pin")
