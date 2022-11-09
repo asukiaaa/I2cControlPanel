@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2799)
+    (start_pass_no 2885)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -29,7 +29,7 @@
     (width 250.0)
     (clear 200.2)
     (clear 125.0 (type smd_to_turn_gap))
-    (clear 50.0 (type smd_smd))
+    (clear 50.0 (type smd-smd))
   )
   (padstack "Via[0-1]_800:400_um"
     (shape
@@ -53,6 +53,7 @@
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
   )
   (class default
+    "unconnected-(D5-Pad1)" "unconnected-(Slide0-Pad3)" "unconnected-(Slide1-Pad3)" "unconnected-(U3-Pad1)" "Net-(Encoder0-Pad3)" "Net-(Encoder0-Pad1)" "Net-(Encoder1-Pad3)" "Net-(Encoder1-Pad1)"
     (clearance_class default)
     (via_rule default)
     (rule
@@ -65,13 +66,13 @@
   (class "kicad_default"
     GND "Net-(C2-Pad1)" +3V3 "Net-(C4-Pad2)" "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(D3-Pad2)" /RST
     /SCK /SDA /SCL VDC /HoriValueL /VertValueL /HoriValueR /VertValueR
-    "Net-(C5-Pad1)" "Net-(C6-Pad2)" "Net-(C6-Pad1)" "/SCL_inside" "/SDA_inside" "Net-(U3-Pad1)" /JoyBtnR /JoyBtnL
-    /BTN1 /BtnSig2 /BTN2 /BTN3 /BtnSig1 "Net-(D5-Pad2)" /Rotery2 /Rotery1
-    /Slide1 "Net-(D0-Pad2)" /BTN0 /LED0 /LED1 /LED2 /LED3 /BtnSig0
-    "Net-(Slide0-Pad3)" /Slide0 "Net-(Slide1-Pad3)" "Net-(BL0-Pad1)" "Net-(BL1-Pad1)" "Net-(BR0-Pad1)" "Net-(BR1-Pad1)" "Net-(D4-Pad5)"
-    "Net-(D4-Pad4)" "Net-(D4-Pad3)" "Net-(D4-Pad1)" "Net-(D5-Pad5)" "Net-(D5-Pad4)" "Net-(D5-Pad3)" "Net-(D5-Pad1)"
+    "Net-(C5-Pad1)" "Net-(C6-Pad2)" "Net-(C6-Pad1)" "/SCL_inside" "/SDA_inside" /JoyBtnR /JoyBtnL /BTN1
+    /BtnSig2 /BTN2 /BTN3 /BtnSig1 /Rotery2 /Rotery1 /Slide1 "Net-(D0-Pad2)"
+    /BTN0 /LED0 /LED1 /LED2 /LED3 /BtnSig0 /Slide0 "Net-(BL0-Pad1)"
+    "Net-(BL1-Pad1)" "Net-(BR0-Pad1)" "Net-(BR1-Pad1)" "Net-(D4-Pad5)" "Net-(D4-Pad4)" "Net-(D4-Pad3)" "Net-(D4-Pad1)" "Net-(D5-Pad5)"
+    "Net-(D5-Pad4)" "Net-(D5-Pad3)"
     (clearance_class "kicad_default")
-    (via_rule kicad_default)
+    (via_rule "kicad_default")
     (rule
       (width 250.0)
     )

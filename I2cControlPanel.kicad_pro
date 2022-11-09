@@ -367,7 +367,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "I2cControlPanel.net",
-      "specctra_dsn": "",
+      "specctra_dsn": "I2cControlPanel.dsn",
       "step": "",
       "vrml": ""
     },
