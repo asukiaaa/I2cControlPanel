@@ -2,7 +2,8 @@
 
 A wired control panel.
 
-![I2cControlPanel](./docs/I2cControlPanel.jpg)
+![I2cControlPanel](./docs/rev2023.01/front.jpg)
+![I2cControlPanel](./docs/rev2023.01/roles.jpg)
 
 # Where to buy
 
