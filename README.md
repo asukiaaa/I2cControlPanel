@@ -9,6 +9,9 @@ A wired control panel.
 
 - [I2cControlPanel | スイッチサイエンス](https://www.switch-science.com/catalog/6824/)
 
+# Library
+[I2cControlPanel_asukiaaa](https://github.com/asukiaaa/I2cControlPanel_asukiaaa)
+
 # Components
 
 - [ATmega328PB-MU](https://www.digikey.jp/product-detail/ja/microchip-technology/ATMEGA328PB-MUR/ATMEGA328PB-MURCT-ND/5722708)
